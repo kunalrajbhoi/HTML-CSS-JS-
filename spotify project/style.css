@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,100&family=Rubik:wght@300&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,100&family=Rubik:wght@300&family=Ubuntu:ital,wght@0,300;1,300;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 69px;
+    background-color: black;
+    color: white;
+    text-indent: 10px
+}
+
+
+.brand img{
+    height: 60px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    height: 500px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    /* display: flex; */
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+}
+
+
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.icons{
+    text-indent: 10px;
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressbar{
+    width: 75vw;
+}
+
+.songItem img{  
+    height: 50px;
+    /* width: 30px; */
+}
+
+.container h2{
+    text-align: center;
+    /* margin-left: 55px; */
+
+}
+
+.songItem{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    text-align: start;
+    text-indent: 15px;
+    align-items: center;
+    border-radius: 14px;
+    
+}
+
+.songItem i{
+    cursor: pointer;
+}
+
+
+.song-info{
+    
+    
+    color: white;
+    
+    
+}
+
+.song-info img{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
